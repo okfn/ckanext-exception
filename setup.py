@@ -25,6 +25,6 @@ setup(
     entry_points='''
         [ckan.plugins]
         # Add plugins here, e.g.
-        # myplugin=ckanext.exception.plugin:PluginClass
+        awesome=ckanext.exception.plugin:ExceptionPlugin
     ''',
 )
